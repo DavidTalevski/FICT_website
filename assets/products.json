@@ -1,0 +1,35 @@
+{
+    "products": [{
+            "id": 0,
+            "name": "World of Warcraft",
+            "description": "World of Warcraft (WoW) is a massively multiplayer online role-playing game (MMORPG) released in 2004 by Blizzard Entertainment. It is the fourth released game set in the Warcraft fantasy universe. World of Warcraft takes place within the Warcraft world of Azeroth, approximately four years after the events at the conclusion of Blizzard's previous Warcraft release, Warcraft III: The Frozen Throne.",
+            "text": "World of Warcraft was first announced by Blizzard at the ECTS trade show in September 2001. Released in 2004, development of the game took roughly 4–5 years, including extensive testing. The 3D graphics in World of Warcraft use elements of the proprietary graphics engine originally used in Warcraft III. The game was designed to be an open environment where players are allowed to do what they please. \nQuests are optional and were designed to help guide players, allow character development, and to spread characters across different zones to try to avoid what developers called player collision. The game interface allows players to customize appearance and controls, and to install add-ons and other modifications.World of Warcraft runs natively on both Macintosh and Windows platforms. Boxed copies of the game use a hybrid CD to install the game, eliminating the need for separate Mac and Windows retail products. The game allows all users to play together, regardless of their operating system.\n Although there is no official version for any other platform, support for World of Warcraft is present in Windows API implementations Wine and CrossOver allowing the game to be played under Linux and FreeBSD. While a native Linux client is neither released nor announced by Blizzard, in January 2011 IT journalist Michael Larabel indicated in a Phoronix article that an internal Linux client might exist but is not released due to the non-standardization of the Linux distro ecosystem.",
+            "date": "January 1, 2019 at 12:00 PM",
+            "video_url": "https://www.youtube.com/embed/vlVSJ0AvZe0"
+        },
+        {
+            "id": 1,
+            "name": "Counter-Strike Global Offensive",
+            "description": "Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Valve and Hidden Path Entertainment. It is the fourth game in the Counter-Strike series and was released for Windows, OS X, Xbox 360, and PlayStation 3 in August 2012, while the Linux version was released in 2014.",
+            "text": "",
+            "date": "January 1, 2019 at 12:00 PM",
+            "video_url": ""
+        },
+        {
+            "id": 2,
+            "name": "Dota 2",
+            "description": "Wow is an mmorpg",
+            "text": "",
+            "date": "January 1, 2019 at 12:00 PM",
+            "video_url": ""
+        },
+        {
+            "id": 3,
+            "name": "Assassins Creed Odyssey",
+            "description": "Wow is an mmorpg",
+            "text": "",
+            "date": "January 1, 2019 at 12:00 PM",
+            "video_url": ""
+        }
+    ]
+}
