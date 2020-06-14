@@ -169,7 +169,9 @@ function getType() {
     try {
         var parameters = location.search.substring(1).split("&");
         var temp = parameters[0].split("=");
-        return temp[1];
+        if (temp[1] == "battlenet" || temp[1] == "steam")
+            return temp[1];
+        return undefined;
     } catch (err) {
         return undefined;
     }
