@@ -7,14 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="David Talevski">
-
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>GameInfo</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/shop-homepage.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
 
   <script src="js/script.js"></script>
 
@@ -36,6 +38,43 @@
 
 <body>
 
+  <!-- <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+    <form class="modal-content" action="/action_page.php">
+      <div class="container">
+        <h1>Бришење на продукт</h1>
+        <p>Дали сте сигурни?</p>
+
+        <div class="clearfix">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'"
+            class="cancelbtn">Назад</button>
+          <button type="button" onclick="document.getElementById('id01').style.display='none'"
+            class="deletebtn">Бриши</button>
+        </div>
+      </div>
+    </form>
+  </div> -->
+
+
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog modal-confirm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <img src="./assets/navigation/delete.png" width="100px" height="100px"> -->
+          <h4 class="modal-title">Дали сте сигурни?</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>Откако ќе кликнете "Избриши" податоците ќе бидат избришани за секогаш.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-dismiss="modal">Назад</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal" id="delete_product">Избриши</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
     <div class="container">
@@ -52,7 +91,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="navbar-custom-text" href="#">За нас</a>
+            <a class="navbar-custom-text" href="product.html">Продукти</a>
           </li>
           <li class="nav-item">
             <a class="navbar-custom-text" href="contact.html">Контакт</a>
@@ -72,13 +111,23 @@
         <!-- <h1 class="my-4">Почетна</h1> -->
 
         <img src="assets/logo.png" width="250" height="250">
-        <!-- <div class="list-group">
-          <a href="#" class="list-group-item">Category 1</a>
-          <a href="#" class="list-group-item">Category 2</a>
-          <a href="#" class="list-group-item">Category 3</a>
-        </div> -->
+        <div class="list-group">
+          <a href="create_product.html" class="list-group-item">Додај продукт</a>
+        </div>
 
+        <div class="list-group">
+          <a href="index.html" class="list-group-item">Прикажи ги сите игри</a>
+        </div>
+
+
+        <div class="list-group">
+          <a href="index.html?type=battlenet" class="list-group-item">Прикажи Battle.net игри</a>
+        </div>
+        <div class="list-group">
+          <a href="index.html?type=steam" class="list-group-item">Прикажи Steam игри</a>
+        </div>
       </div>
+
       <!-- /.col-lg-3 -->
 
       <div class="col-lg-9">
@@ -92,15 +141,12 @@
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
               <img class="d-block img-fluid" src="assets/slika1.jpg" id="slide1" alt="First slide">
-              <h5 class="carausel-custom-text" id="slide1_text"> Test tekst</h1>
             </div>
             <div class="carousel-item">
               <img class="d-block img-fluid" src="assets/slika2.jpg" id="slide2" alt="Second slide">
-              <h5 class="carausel-custom-text" id="slide1_text"> Test tekst</h1>
             </div>
             <div class="carousel-item">
               <img class="d-block img-fluid" src="assets/slika3.jpg" id="slide3" alt="Third slide">
-              <h5 class="carausel-custom-text" id="slide1_text"> Test tekst</h1>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

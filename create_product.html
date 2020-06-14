@@ -13,6 +13,8 @@
 
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/contact.css" rel="stylesheet">
+  <script src="js/createProduct.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
 
   <title>GameInfo</title>
 </head>
@@ -44,55 +46,51 @@
 
   <div class="img-container"><img src="assets/logo.png" width="250" height="250"></div>
 
+
   <div class="container">
     <div class="row">
       <div class="col">
         <div class="card">
-          <div class="card-header navbar-custom text-white"> Контакт
+          <div class="card-header navbar-custom text-white"> Продукт
           </div>
-          <div class="card-body">
-            <form>
-              <div class="form-group">
-                <label for="name">Име</label>
-                <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Внесете име"
-                  required>
+          <div class="card-body" onsubmit="return false">
+            <form id="product_form">
+              <div class=" form-group">
+                <label for="form_name">Име</label>
+                <input type="text" class="form-control" id="form_name" required>
               </div>
               <div class="form-group">
-                <label for="lastname">Презиме</label>
-                <input type="text" class="form-control" id="lastname" aria-describedby="emailHelp"
-                  placeholder="Внесете презиме" required>
+                <label for="form_description">Вовед</label>
+                <textarea class="form-control" id="form_description" rows="3" required></textarea>
               </div>
               <div class="form-group">
-                <label for="email">Е-маил адреса</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                  placeholder="Внесете е-маил" required>
+                <label for="form_text">Текст</label>
+                <textarea class="form-control" id="form_text" rows="6" required></textarea>
               </div>
               <div class="form-group">
-                <label for="message">Порака</label>
-                <textarea class="form-control" id="message" rows="6" required></textarea>
+                <label for="form_game_link_type">Икона до страната</label>
+                <select id="form_game_link_type" name="game_link_type">
+                  <option value="battlenet">Battle.net</option>
+                  <option value="steam">Steam</option>
+                </select>
               </div>
-              <div class="mx-auto">
-                <button type="submit" class="btn navbar-custom btn-primary text-right">Прати</button></div>
+              <div class="form-group">
+                <label for="form_game_link">Линк до играта</label>
+                <input type="text" class="form-control" id="form_game_link" required>
+              </div>
+              <div class="form-group">
+                <label for="form_video_url">Линк до видео</label>
+                <input type="text" class="form-control" id="form_video_url" aria-describedby="emailHelp"
+                  placeholder="Внесете embedded линк од youtube">
+              </div>
+              <div class="form-group">
+                <label for="file">Слика</label>
+                <input type="file" name="file" id="file" required />
+              </div>
+              <div>
+                <button type="submit" class="btn navbar-custom btn-primary text-right">Креирај
+                  Продукт</button></div>
             </form>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-5">
-        <div class="card bg-light mb-3">
-          <div class="card-header navbar-custom text-white"> Адреса</div>
-          <div class="card-body">
-            <p>Партизанска бб (комплекс Касарна)</p>
-            <p>7000 Битола</p>
-            <p>Е-маил : contact@fikt.edu.mk</p>
-          </div>
-        </div>
-        <div class="card bg-light mb-3">
-          <div class="card-header navbar-custom text-white"> Локација</div>
-          <div class="card-body">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.1206488109874!2d21.32359691571904!3d41.022616326490684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1357251c004b1797%3A0x238c9445a1424717!2sFaculty%20of%20Information%20and%20Communication%20Technologies!5e0!3m2!1sen!2smk!4v1592048896482!5m2!1sen!2smk"
-              width="400" height="270" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-              tabindex="0"></iframe>
           </div>
         </div>
       </div>

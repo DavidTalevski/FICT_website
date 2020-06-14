@@ -1,35 +1,57 @@
 {
     "products": [{
-            "id": 0,
-            "name": "World of Warcraft",
-            "description": "World of Warcraft (WoW) is a massively multiplayer online role-playing game (MMORPG) released in 2004 by Blizzard Entertainment. It is the fourth released game set in the Warcraft fantasy universe. World of Warcraft takes place within the Warcraft world of Azeroth, approximately four years after the events at the conclusion of Blizzard's previous Warcraft release, Warcraft III: The Frozen Throne.",
-            "text": "World of Warcraft was first announced by Blizzard at the ECTS trade show in September 2001. Released in 2004, development of the game took roughly 4–5 years, including extensive testing. The 3D graphics in World of Warcraft use elements of the proprietary graphics engine originally used in Warcraft III. The game was designed to be an open environment where players are allowed to do what they please. \nQuests are optional and were designed to help guide players, allow character development, and to spread characters across different zones to try to avoid what developers called player collision. The game interface allows players to customize appearance and controls, and to install add-ons and other modifications.World of Warcraft runs natively on both Macintosh and Windows platforms. Boxed copies of the game use a hybrid CD to install the game, eliminating the need for separate Mac and Windows retail products. The game allows all users to play together, regardless of their operating system.\n Although there is no official version for any other platform, support for World of Warcraft is present in Windows API implementations Wine and CrossOver allowing the game to be played under Linux and FreeBSD. While a native Linux client is neither released nor announced by Blizzard, in January 2011 IT journalist Michael Larabel indicated in a Phoronix article that an internal Linux client might exist but is not released due to the non-standardization of the Linux distro ecosystem.",
-            "date": "January 1, 2019 at 12:00 PM",
-            "video_url": "https://www.youtube.com/embed/vlVSJ0AvZe0"
-        },
-        {
-            "id": 1,
-            "name": "Counter-Strike Global Offensive",
-            "description": "Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Valve and Hidden Path Entertainment. It is the fourth game in the Counter-Strike series and was released for Windows, OS X, Xbox 360, and PlayStation 3 in August 2012, while the Linux version was released in 2014.",
-            "text": "",
-            "date": "January 1, 2019 at 12:00 PM",
-            "video_url": ""
-        },
-        {
-            "id": 2,
-            "name": "Dota 2",
-            "description": "Wow is an mmorpg",
-            "text": "",
-            "date": "January 1, 2019 at 12:00 PM",
-            "video_url": ""
-        },
-        {
-            "id": 3,
-            "name": "Assassins Creed Odyssey",
-            "description": "Wow is an mmorpg",
-            "text": "",
-            "date": "January 1, 2019 at 12:00 PM",
-            "video_url": ""
-        }
-    ]
+        "id": 5,
+        "name": "AOE2 : Definitive Edition",
+        "description": "Age of Empires II: Definitive Edition is a real-time strategy video game developed by Forgotten Empires and published by Xbox Game Studios. It is a remaster of the original game Age of Empires II: The Age of Kings, celebrating the 20th anniversary of the original. It features significantly improved visuals, supports 4K resolution, and \"The Last Khans\", an expansion that adds four new civilizations based on Central Asia and Eastern Europe, and four new campaigns. It includes all previous expansions from the original and HD edition. It was released on November 14, 2019.",
+        "text": "The core gameplay elements are shared heavily with the original but Definitive Edition builds upon it. The remaster includes new 4K graphics, new improved visuals for troops and buildings, the ability to zoom in and further out and a new spectator mode. It features a new campaign called The Last Khans and four new civilizations: Bulgarians, Cumans, Lithuanians and Tatars. It includes all previous expansions from the original (The Conquerors) and HD edition (The Forgotten, The African Kingdoms, Rise of the Rajas).\n\n\nBert Beeckman (left) and Adam Isgreen (right) at E3 2019. Isgreen is the creative director on Definitive Edition and Beeckman is the co-founder of Forgotten Empires\nPlayers can choose between the original AI, the updated HD Edition AI that was added alongside the HD Edition of the game, and a newer AI developed for the Definitive Edition. The original AI had to cheat to be competitive, while the new AI is advanced enough to not require any cheating. When the old and new AIs were pitted against each other in a test, the new one easily defeated the old one. Unit pathfinding is also supposedly improved upon. Players can shift-queue villager tasks. Farms replenish automatically.",
+        "game_link_type": "steam",
+        "game_link": "https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/",
+        "video_url": "https://www.youtube.com/embed/ZOgBVR21pWg",
+        "date": "2020/06/14"
+    }, {
+        "id": 4,
+        "name": "Warcraft 3 Reforged",
+        "description": "Warcraft III: Reforged is a remastered edition of the 2002 real-time strategy video game Warcraft III: Reign of Chaos and its expansion The Frozen Throne. Released on January 28, 2020, it adds revamped graphics, an altered campaign, and modern online Battle.net features. The game received mixed reviews from critics and an overwhelmingly negative reception from players for its changes from the original and technical issues.",
+        "text": "Warcraft III: Reforged retains the gameplay of the original, but its development has spurred on further balance changes to the game's multiplayer. Players from the original client are able to access and play with Reforged players by being given access to the new client. There is a Classic Graphics setting available that uses the textures of the original release. This is similar to StarCraft: Remastered. Users can unlock profile icons based on per-race ratings. The campaign's missions were initially to be altered to reflect World of Warcraft, but this was scrapped. \n\nThere are certain features missing from Reforged, including some that will be released later (such as the competitive ladder of Warcraft III). Some, however, have not been included, including the \"Clans\" social system, and has not been mentioned by Blizzard.",
+        "game_link_type": "battlenet",
+        "game_link": "https://eu.shop.battle.net/en-us/product/warcraft-iii-reforged",
+        "video_url": "https://www.youtube.com/embed/sJWuMwz31qE",
+        "date": "2020/06/14"
+    }, {
+        "id": 0,
+        "name": "World of Warcraft",
+        "description": "World of Warcraft (WoW) is a massively multiplayer online role-playing game (MMORPG) released in 2004 by Blizzard Entertainment. It is the fourth released game set in the Warcraft fantasy universe. World of Warcraft takes place within the Warcraft world of Azeroth, approximately four years after the events at the conclusion of Blizzard's previous Warcraft release, Warcraft III: The Frozen Throne.",
+        "text": "World of Warcraft was first announced by Blizzard at the ECTS trade show in September 2001. Released in 2004, development of the game took roughly 4–5 years, including extensive testing. The 3D graphics in World of Warcraft use elements of the proprietary graphics engine originally used in Warcraft III. The game was designed to be an open environment where players are allowed to do what they please. \nQuests are optional and were designed to help guide players, allow character development, and to spread characters across different zones to try to avoid what developers called player collision. The game interface allows players to customize appearance and controls, and to install add-ons and other modifications.World of Warcraft runs natively on both Macintosh and Windows platforms. Boxed copies of the game use a hybrid CD to install the game, eliminating the need for separate Mac and Windows retail products. The game allows all users to play together, regardless of their operating system.\n Although there is no official version for any other platform, support for World of Warcraft is present in Windows API implementations Wine and CrossOver allowing the game to be played under Linux and FreeBSD. While a native Linux client is neither released nor announced by Blizzard, in January 2011 IT journalist Michael Larabel indicated in a Phoronix article that an internal Linux client might exist but is not released due to the non-standardization of the Linux distro ecosystem.",
+        "date": "2020/06/13",
+        "game_link_type": "battlenet",
+        "game_link": "https://worldofwarcraft.com/en-us/",
+        "video_url": "https://www.youtube.com/embed/vlVSJ0AvZe0"
+    }, {
+        "id": 1,
+        "name": "CS: Global Offensive",
+        "description": "Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Valve and Hidden Path Entertainment. It is the fourth game in the Counter-Strike series and was released for Windows, OS X, Xbox 360, and PlayStation 3 in August 2012, while the Linux version was released in 2014.",
+        "text": "The game pits two teams against each other: the Terrorists and the Counter-Terrorists. Both sides are tasked with eliminating the other while also completing separate objectives. The Terrorists, depending on the game mode, must either plant the bomb or defend the hostages, while the Counter-Terrorists must either prevent the bomb from being planted, defuse the bomb, or rescue the hostages. There are nine game modes, all of which have distinct characteristics specific to that mode.\n The game also has matchmaking support that allows players to play on dedicated Valve servers, as well as allowing members of the community to host their own servers with custom maps and game modes. A battle-royale game-mode, Danger Zone, was introduced in 2018.\nGlobal Offensive received positive reviews from critics on release, who praised for its gameplay and faithfulness to predecessors, though it was criticized for some of its early features and was noted for differences between the console and PC versions. Since its release, it has drawn in an estimated 11 million players per month, and has gathered an active competitive scene, with many tournaments sponsored by Valve themselves. In December 2018, Valve transitioned the game to a free-to-play model, focusing on revenue from cosmetic items.",
+        "date": "2020/06/6",
+        "game_link_type": "steam",
+        "game_link": "https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/",
+        "video_url": "https://www.youtube.com/embed/edYCtaNueQY"
+    }, {
+        "id": 2,
+        "name": "Dota 2",
+        "description": "Dota 2 is a multiplayer online battle arena (MOBA) video game developed and published by Valve. The game is a sequel to Defense of the Ancients (DotA), which was a community-created mod for Blizzard Entertainment's Warcraft III: Reign of Chaos and its expansion pack, The Frozen Throne. Dota 2 is played in matches between two teams of five players, with each team occupying and defending their own separate base on the map. Each of the ten players independently controls a powerful character, known as a hero , who all have unique abilities and differing styles of play. During a match, players collect experience points and items for their heroes to successfully defeat the opposing team's heroes in player versus player combat. A team wins by being the first to destroy the other team's Ancient , a large structure located within their base.",
+        "text": "Development of Dota 2 began in 2009 when IceFrog, lead designer of Defense of the Ancients, was hired by Valve to create a modernized remake for them in the Source game engine. It was officially released for Microsoft Windows, OS X, and Linux-based personal computers via the digital distribution platform Steam in July 2013, following a Windows-only open beta phase that began two years prior. The game is fully free-to-play with no heroes or any other gameplay element needing to be bought or otherwise unlocked. To maintain it, Valve supports the game as a service, selling loot boxes and a battle pass subscription system called Dota Plus that offer non-gameplay altering virtual goods in return, such as hero cosmetics and audio replacement packs. The game has also been updated with various other features since release, such as a port to the Source 2 engine and support for virtual reality.\n Dota 2 has a large esports scene, with teams from around the world playing in various professional leagues and tournaments. Valve manages an event format known as the Dota Pro Circuit, which are a series of tournaments that award qualification points for earning direct invitations to The International, the game's premier annual tournament. Internationals feature a crowdfunded prize money system that has seen amounts in upwards of US$30 million, making Dota 2 the most lucrative esports game. Media coverage of most tournaments is done by a selection of on-site staff who provide commentary and analysis for the ongoing matches, similar to traditional sporting events. In addition to playing live to audiences in arenas and stadiums, broadcasts of them are also streamed over the internet, and sometimes simulcast on television networks, with peak viewership numbers in the millions.",
+        "date": "2020/06/7",
+        "game_link_type": "steam",
+        "game_link": "https://store.steampowered.com/app/570/Dota_2/",
+        "video_url": "https://www.youtube.com/embed/-cSFPIwMEq4"
+    }, {
+        "id": 3,
+        "name": "Assassins Creed Odyssey",
+        "description": "Assassin's Creed Odyssey is an action role-playing video game developed by Ubisoft Quebec and published by Ubisoft. It is the eleventh major installment, and 21st overall, in the Assassin's Creed series and the successor to 2017's Assassin's Creed Origins. Set in the years 431-422 BCE, the plot tells a mythological history of the Peloponnesian War between Athens and Sparta. Players control a male or female mercenary (Ancient Greek: μίσθιος misthios) who fights for both sides as they attempt to unite their family.",
+        "text": "Assassin's Creed Odyssey was released worldwide for Microsoft Windows, PlayStation 4, Xbox One, and (in Japan only) for Nintendo Switch on October 5, 2018, with a Stadia version launching alongside the service in 2019. The game received generally favorable reviews. The game is to be followed by Assassin's Creed Valhalla, which takes place in medieval Britain during the Viking expansion across Europe and is due to be released in late 2020. \n Assassin's Creed Odyssey places more emphasis on role-playing elements than previous games in the series. The game contains dialogue options, branching quests and multiple endings. The player is able to choose between siblings Alexios and Kassandra as to whom they use as the main character. The game features a notoriety system in which mercenaries chase after the player if they commit crimes like killing or stealing in the presence of others.",
+        "date": "2020/06/9",
+        "game_link_type": "steam",
+        "game_link": "https://store.steampowered.com/app/812140/Assassins_Creed_Odyssey/",
+        "video_url": "https://www.youtube.com/embed/s_SJZSAtLBA"
+    }]
 }
